@@ -1,16 +1,16 @@
 # Github Pages Directory Listing
-[![main](https://github.com/jayanta525/github-pages-directory-listing/actions/workflows/main.yml/badge.svg)](https://github.com/jayanta525/github-pages-directory-listing/actions/workflows/main.yml)
-[![license](https://img.shields.io/github/license/jayanta525/github-pages-directory-listing)](https://github.com/jayanta525/github-pages-directory-listing/blob/main/LICENSE)
-[![Paypal Donate](https://img.shields.io/badge/donate-paypal-00457c.svg?logo=paypal&style=plastic)](https://www.paypal.me/jayanta525)
+[![main](https://github.com/lciscon/github-pages-directory-listing/actions/workflows/main.yml/badge.svg)](https://github.com/lciscon/github-pages-directory-listing/actions/workflows/main.yml)
+[![license](https://img.shields.io/github/license/lciscon/github-pages-directory-listing)](https://github.com/lciscon/github-pages-directory-listing/blob/main/LICENSE)
+[![Paypal Donate](https://img.shields.io/badge/donate-paypal-00457c.svg?logo=paypal&style=plastic)](https://www.paypal.me/lciscon)
 
 
 Generate Directory Listings for Github Pages using Github Actions. 
 
-[Demo](https://github.com/jayanta525/github-pages-directory-listing#demo)
+[Demo](https://github.com/lciscon/github-pages-directory-listing#demo)
 
-[Read about pages deployment action](https://github.com/jayanta525/github-pages-directory-listing/edit/main/README.md#note)
+[Read about pages deployment action](https://github.com/lciscon/github-pages-directory-listing/edit/main/README.md#note)
 
-[action.yml/workflow.yml](https://github.com/jayanta525/github-pages-directory-listing/blob/main/.github/workflows/main.yml)
+[action.yml/workflow.yml](https://github.com/lciscon/github-pages-directory-listing/blob/main/.github/workflows/main.yml)
 ## Usage
 ### Getting Started
 
@@ -30,7 +30,7 @@ jobs:
           ref: dummy-data    #checkout different branch
 
       - name: Generate Directory Listings
-        uses: jayanta525/github-pages-directory-listing@v4.0.0
+        uses: lciscon/github-pages-directory-listing@v4.0.0
         with:
           FOLDER: data      #directory to generate index
 
@@ -78,7 +78,7 @@ jobs:
 #### Choosing a folder to generate indexing
 ```
       - name: Generate Directory Listings
-        uses: jayanta525/github-pages-directory-listing@v4.0.0
+        uses: lciscon/github-pages-directory-listing@v4.0.0
         with:
           FOLDER: data    #directory to generate index
 ```
@@ -94,7 +94,7 @@ Under `Settings > Pages > Build & Deployment`
 
 
 ## Demo
-demo URL: https://jayanta525.github.io/github-pages-directory-listing/
+demo URL: https://lciscon.github.io/github-pages-directory-listing/
 
 
 ### Desktop view
